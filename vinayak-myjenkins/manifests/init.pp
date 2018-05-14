@@ -37,5 +37,11 @@
 #
 class myjenkins {
 
-
+file { '/home/vinayak/myfile.sh':
+  ensure => file,
+  owner  => 'vinayak',
+  group  => 'vinayak',
+  content => file('myjenkins/myfile'),
+  mode   => '0777',
+}
 }
