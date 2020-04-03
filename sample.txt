@@ -4,7 +4,7 @@ git init
 
 git add
 
-git commit
+git commit -m 
 
 git status
 
@@ -15,4 +15,7 @@ git clone
 git push
 
 git pull
+
+
+Editing this file
 
