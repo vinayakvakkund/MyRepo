@@ -4,7 +4,7 @@ git init
 
 git add
 
-git commit
+git commit -m 
 
 git status
 
@@ -17,3 +17,7 @@ git push
 git pull
 
 branch_two
+
+Editing this file
+
+ branch_one
